@@ -1,8 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.6.1'
 
+#set :symfony_env,  "dev"
+
 set :application, 'symfony-demo'
-set :repo_url, 'git@github.com:samuelbriole/symfony-demo.git'
+set :repo_url, 'https://github.com/samuelbriole/symfony-demo.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
